@@ -44,3 +44,24 @@ html{
     width: 100%;
     height: auto;
 }
+
+.qr-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.qr-content .qr-title{
+    margin: 1.5rem 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.qr-content .qr-text{
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
