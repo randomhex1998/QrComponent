@@ -23,4 +23,14 @@ html{
 .container{
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-box{
+    width: 350px;
+    height: 50vh;
+    background-color: white;
+    border-radius: 15px;
 }
